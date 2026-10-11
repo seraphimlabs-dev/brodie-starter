@@ -1,0 +1,763 @@
+{
+  "_doc": "Session view shape: GET /api/session/[share_token]. Regenerate with python scripts/make_sample_session.py. Demo tokens are fake.",
+  "session": {
+    "id": "fbf58a0c-2c85-502e-9e74-feec3aa1c3a5",
+    "started_at": "2026-10-11T14:05:00Z",
+    "ended_at": "2026-10-11T14:12:57Z",
+    "share_token": "demo-session-7hK2pXq9LmV4sTz8RwN3bC6d",
+    "recap_image_path": "fbf58a0c-2c85-502e-9e74-feec3aa1c3a5.png"
+  },
+  "client": {
+    "id": "00000000-0000-4000-8000-00000000c11e",
+    "name": "Ryan"
+  },
+  "coach": {
+    "id": "00000000-0000-4000-8000-00000000c0ac",
+    "name": "Tristan",
+    "share_token": "demo-tristan-R7mQ2vK9xL4pN8sW1tY3aB5c"
+  },
+  "day": {
+    "id": "00000000-0000-4000-8000-00000000da01",
+    "title": "Day 1 - Full body",
+    "day_number": 1
+  },
+  "exercises": [
+    {
+      "exercise_key": "squat",
+      "name": "Squats",
+      "planned_sets": 3,
+      "planned_reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "planned_reps": 10,
+          "completed_reps": 10,
+          "started_at": "2026-10-11T14:05:03Z",
+          "ended_at": "2026-10-11T14:05:31Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 4.5,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 7.1,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 9.7,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 12.3,
+              "faults": []
+            },
+            {
+              "rep_number": 5,
+              "t": 14.9,
+              "faults": []
+            },
+            {
+              "rep_number": 6,
+              "t": 17.5,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 20.1,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 22.7,
+              "faults": []
+            },
+            {
+              "rep_number": 9,
+              "t": 25.3,
+              "faults": []
+            },
+            {
+              "rep_number": 10,
+              "t": 27.9,
+              "faults": []
+            }
+          ]
+        },
+        {
+          "set_number": 2,
+          "planned_reps": 10,
+          "completed_reps": 10,
+          "started_at": "2026-10-11T14:05:51Z",
+          "ended_at": "2026-10-11T14:06:19Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 52.5,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 55.1,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 57.7,
+              "faults": [
+                "squats - knees over toes"
+              ]
+            },
+            {
+              "rep_number": 4,
+              "t": 60.3,
+              "faults": []
+            },
+            {
+              "rep_number": 5,
+              "t": 62.9,
+              "faults": []
+            },
+            {
+              "rep_number": 6,
+              "t": 65.5,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 68.1,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 70.7,
+              "faults": []
+            },
+            {
+              "rep_number": 9,
+              "t": 73.3,
+              "faults": []
+            },
+            {
+              "rep_number": 10,
+              "t": 75.9,
+              "faults": []
+            }
+          ]
+        },
+        {
+          "set_number": 3,
+          "planned_reps": 10,
+          "completed_reps": 9,
+          "started_at": "2026-10-11T14:06:39Z",
+          "ended_at": "2026-10-11T14:07:04.400000Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 100.5,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 103.1,
+              "faults": [
+                "squats - shallow"
+              ]
+            },
+            {
+              "rep_number": 3,
+              "t": 105.7,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 108.3,
+              "faults": [
+                "squats - shallow"
+              ]
+            },
+            {
+              "rep_number": 5,
+              "t": 110.9,
+              "faults": [
+                "squats - knees over toes"
+              ]
+            },
+            {
+              "rep_number": 6,
+              "t": 113.5,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 116.1,
+              "faults": [
+                "squats - shallow"
+              ]
+            },
+            {
+              "rep_number": 8,
+              "t": 118.7,
+              "faults": []
+            },
+            {
+              "rep_number": 9,
+              "t": 121.3,
+              "faults": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_key": "pushup",
+      "name": "Push-ups",
+      "planned_sets": 3,
+      "planned_reps": 8,
+      "sets": [
+        {
+          "set_number": 1,
+          "planned_reps": 8,
+          "completed_reps": 8,
+          "started_at": "2026-10-11T14:07:24.400000Z",
+          "ended_at": "2026-10-11T14:07:47.200000Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 145.9,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 148.5,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 151.1,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 153.7,
+              "faults": []
+            },
+            {
+              "rep_number": 5,
+              "t": 156.3,
+              "faults": []
+            },
+            {
+              "rep_number": 6,
+              "t": 158.9,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 161.5,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 164.1,
+              "faults": []
+            }
+          ]
+        },
+        {
+          "set_number": 2,
+          "planned_reps": 8,
+          "completed_reps": 8,
+          "started_at": "2026-10-11T14:08:07.200000Z",
+          "ended_at": "2026-10-11T14:08:30Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 188.7,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 191.3,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 193.9,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 196.5,
+              "faults": [
+                "pushups - insufficient"
+              ]
+            },
+            {
+              "rep_number": 5,
+              "t": 199.1,
+              "faults": []
+            },
+            {
+              "rep_number": 6,
+              "t": 201.7,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 204.3,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 206.9,
+              "faults": [
+                "pushups - insufficient"
+              ]
+            }
+          ]
+        },
+        {
+          "set_number": 3,
+          "planned_reps": 8,
+          "completed_reps": 6,
+          "started_at": "2026-10-11T14:08:50Z",
+          "ended_at": "2026-10-11T14:09:07.600000Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 231.5,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 234.1,
+              "faults": [
+                "pushups - insufficient"
+              ]
+            },
+            {
+              "rep_number": 3,
+              "t": 236.7,
+              "faults": [
+                "pushups - insufficient",
+                "pushups - elevated hips"
+              ]
+            },
+            {
+              "rep_number": 4,
+              "t": 239.3,
+              "faults": [
+                "pushups - insufficient"
+              ]
+            },
+            {
+              "rep_number": 5,
+              "t": 241.9,
+              "faults": [
+                "pushups - elevated hips"
+              ]
+            },
+            {
+              "rep_number": 6,
+              "t": 244.5,
+              "faults": []
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_key": "lunge",
+      "name": "Lunges",
+      "planned_sets": 2,
+      "planned_reps": 10,
+      "sets": [
+        {
+          "set_number": 1,
+          "planned_reps": 10,
+          "completed_reps": 10,
+          "started_at": "2026-10-11T14:09:27.600000Z",
+          "ended_at": "2026-10-11T14:09:55.600000Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 269.1,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 271.7,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 274.3,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 276.9,
+              "faults": [
+                "alternating forward lunges - leaning forward"
+              ]
+            },
+            {
+              "rep_number": 5,
+              "t": 279.5,
+              "faults": []
+            },
+            {
+              "rep_number": 6,
+              "t": 282.1,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 284.7,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 287.3,
+              "faults": []
+            },
+            {
+              "rep_number": 9,
+              "t": 289.9,
+              "faults": []
+            },
+            {
+              "rep_number": 10,
+              "t": 292.5,
+              "faults": []
+            }
+          ]
+        },
+        {
+          "set_number": 2,
+          "planned_reps": 10,
+          "completed_reps": 7,
+          "started_at": "2026-10-11T14:10:15.600000Z",
+          "ended_at": "2026-10-11T14:10:35.800000Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 317.1,
+              "faults": []
+            },
+            {
+              "rep_number": 2,
+              "t": 319.7,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 322.3,
+              "faults": []
+            },
+            {
+              "rep_number": 4,
+              "t": 324.9,
+              "faults": []
+            },
+            {
+              "rep_number": 5,
+              "t": 327.5,
+              "faults": [
+                "alternating forward lunges - leaning forward"
+              ]
+            },
+            {
+              "rep_number": 6,
+              "t": 330.1,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 332.7,
+              "faults": [
+                "alternating forward lunges - leaning forward"
+              ]
+            }
+          ]
+        }
+      ]
+    },
+    {
+      "exercise_key": "bicep_curl",
+      "name": "Bicep curls",
+      "planned_sets": 3,
+      "planned_reps": 12,
+      "sets": [
+        {
+          "set_number": 1,
+          "planned_reps": 12,
+          "completed_reps": 12,
+          "started_at": "2026-10-11T14:10:55.800000Z",
+          "ended_at": "2026-10-11T14:11:29Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 357.3,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 2,
+              "t": 359.9,
+              "faults": []
+            },
+            {
+              "rep_number": 3,
+              "t": 362.5,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 4,
+              "t": 365.1,
+              "faults": []
+            },
+            {
+              "rep_number": 5,
+              "t": 367.7,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 6,
+              "t": 370.3,
+              "faults": []
+            },
+            {
+              "rep_number": 7,
+              "t": 372.9,
+              "faults": []
+            },
+            {
+              "rep_number": 8,
+              "t": 375.5,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 9,
+              "t": 378.1,
+              "faults": []
+            },
+            {
+              "rep_number": 10,
+              "t": 380.7,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 11,
+              "t": 383.3,
+              "faults": []
+            },
+            {
+              "rep_number": 12,
+              "t": 385.9,
+              "faults": []
+            }
+          ]
+        },
+        {
+          "set_number": 2,
+          "planned_reps": 12,
+          "completed_reps": 10,
+          "started_at": "2026-10-11T14:11:49Z",
+          "ended_at": "2026-10-11T14:12:17Z",
+          "reps": [
+            {
+              "rep_number": 1,
+              "t": 410.5,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 2,
+              "t": 413.1,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 3,
+              "t": 415.7,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 4,
+              "t": 418.3,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 5,
+              "t": 420.9,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 6,
+              "t": 423.5,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 7,
+              "t": 426.1,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 8,
+              "t": 428.7,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 9,
+              "t": 431.3,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            },
+            {
+              "rep_number": 10,
+              "t": 433.9,
+              "faults": [
+                "bicep curls - swinging"
+              ]
+            }
+          ]
+        },
+        {
+          "set_number": 3,
+          "planned_reps": 12,
+          "completed_reps": 0,
+          "started_at": null,
+          "ended_at": null,
+          "reps": []
+        }
+      ]
+    }
+  ],
+  "muscles": [
+    {
+      "muscle": "quads",
+      "score": 0.823,
+      "color": "green",
+      "coverage": "primary"
+    },
+    {
+      "muscle": "glutes",
+      "score": 0.823,
+      "color": "green",
+      "coverage": "primary"
+    },
+    {
+      "muscle": "hamstrings",
+      "score": 0.823,
+      "color": "green",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "calves",
+      "score": 0.83,
+      "color": "green",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "adductors",
+      "score": 0.823,
+      "color": "green",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "abductors",
+      "score": 0.0,
+      "color": "gray",
+      "coverage": "none"
+    },
+    {
+      "muscle": "chest",
+      "score": 0.705,
+      "color": "yellow",
+      "coverage": "primary"
+    },
+    {
+      "muscle": "front_delts",
+      "score": 0.566,
+      "color": "yellow",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "triceps",
+      "score": 0.705,
+      "color": "yellow",
+      "coverage": "primary"
+    },
+    {
+      "muscle": "biceps",
+      "score": 0.426,
+      "color": "red",
+      "coverage": "primary"
+    },
+    {
+      "muscle": "forearms",
+      "score": 0.426,
+      "color": "red",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "abs",
+      "score": 0.76,
+      "color": "green",
+      "coverage": "secondary"
+    },
+    {
+      "muscle": "obliques",
+      "score": 0.0,
+      "color": "gray",
+      "coverage": "none"
+    },
+    {
+      "muscle": "lats",
+      "score": 0.0,
+      "color": "gray",
+      "coverage": "none"
+    },
+    {
+      "muscle": "traps",
+      "score": 0.0,
+      "color": "gray",
+      "coverage": "none"
+    },
+    {
+      "muscle": "rear_delts",
+      "score": 0.0,
+      "color": "gray",
+      "coverage": "none"
+    }
+  ]
+}

@@ -17,6 +17,7 @@ import numpy as np
 from facetime import CUES_DIR, CUES_DIR_GEMINI, SAMPLE_RATE
 from rtcoach.coach import CUES, PRAISE, COUNT_WORDS
 from rtcoach.exmap import LR2CLF
+from shared.scoring import RULES, plan_name
 
 MANIFEST = os.path.join(CUES_DIR, 'manifest.json')      # openai bank; the gemini bank has its own
 SILENCE_DBFS = -40.0
@@ -40,8 +41,8 @@ def number_word(n):
     return 'thirty'
 
 def exercise_names():
-    """Every exercise name the coach can say: the LR2CLF keys plus the plain demo names."""
-    return sorted(set(LR2CLF) | {'squats', 'pushups', 'lunges', 'jumping jacks'})
+    """Classifier names plus the canonical names used by assigned program days."""
+    return sorted(set(LR2CLF) | {plan_name(key) for key in RULES['exercises']})
 
 def vocabulary():
     """Every string the coach can say. Order is stable (sorted) so the manifest diff is readable."""
@@ -61,7 +62,10 @@ def vocabulary():
     v.update(["Rest for a moment", "All done, great session", "Nice work", "Slow down", "Pick up the pace"])
     v.update(["Okay, moving on"])                                    # --gesture-next: the T-pose command (facetime/probe.py TPose)
     v.update(["Step back so I can see your whole body", "Great, I can see you", "I will wait here, step into view when you are ready"])   # facetime/visibility.py
-    v.update(["Probe ready, raise both arms"])                      # latency probe (coach_agent --latency-probe)
+    v.update(["Probe ready, raise both arms"])
+    from facetime.roast import ROAST_LINES
+    v.update(ROAST_LINES)                                            # roast mode (facetime/roast.py)
+    v.update(["Chin over the bar", "Full hang at the bottom"])        # pull-ups (facetime/pullup.py)                      # latency probe (coach_agent --latency-probe)
     bad = [t for t in v if '\u2014' in t or '\u2013' in t]
     assert not bad, f'dashes in cue text: {bad}'
     return sorted(v)
